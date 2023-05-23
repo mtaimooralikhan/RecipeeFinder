@@ -1,0 +1,54 @@
+.ingredientCard {
+  width: 50%;
+  /* height: 400px; */
+  box-shadow: 1px 2px 1px 1px grey;
+  border-radius: 13px;
+}
+.ingredientCard img {
+  width: 100%;
+  height: 250px;
+}
+.ingredientCard h2 {
+  margin-top: 26px;
+}
+.ingredientCard button {
+  background-color: #4254f5;
+  width: 100px;
+  height: 41px;
+  border: 1px solid #4254f5;
+  border-radius: 7px;
+  font-size: 13px;
+  color: #fff;
+  margin: 26px 0;
+}
+.ingredientCard button:hover {
+  background-color: #1e30ce;
+}
+.loading {
+  margin-bottom: 10px;
+}
+.cont-ingred {
+  padding: 10px 47px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: start;
+}
+
+.cont-ingred ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cont-ingred ol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cont-ingred li {
+  text-align: start;
+}
+.cont-ingred h3 {
+  margin: 10px 0;
+}
